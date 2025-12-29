@@ -22,8 +22,8 @@ export const Tabs = ({ tabs, activeTabId, onTabSelected }) => {
                   {tab.title}
                 </a>
               </li>
-            ),
-          )}
+              // eslint-disable-next-line prettier/prettier
+            ))}
         </ul>
       </div>
 
